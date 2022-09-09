@@ -9,7 +9,7 @@
 int main(void)
 {
 	int i;
-	char alps[24] = "abcdfghijklmnoprstuvxyz";
+	char alps[24] = "abcdfghijklmnoprstuvwxyz";
 
 	for (i = 0; i < 24; i++)
 	{
