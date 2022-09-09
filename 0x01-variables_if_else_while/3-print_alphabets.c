@@ -10,12 +10,12 @@
 int main(void)
 {
 	int i;
-	char alps[52] = "abcdefghijklmnopqrstuvwxyzABCDEFGHILKLMNOPQRSTUVWXYZ"
+	char alps[52] = "abcdefghijklmnopqrstuvwxyzABCDEFGHILKLMNOPQRSTUVWXYZ";
 
 	for (i = 0; i < 52; i++)
 	{
 		putchar(alps[i]);
 	}
-	putchar("\n");
+	putchar('\n');
 	return (0);
 }
