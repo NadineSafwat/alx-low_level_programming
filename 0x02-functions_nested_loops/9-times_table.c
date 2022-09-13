@@ -8,16 +8,16 @@
 
 void times_table(void)
 {
-	int rone, cone, d;
+	int i, j, d;
 
-	for (rone = 0; rone <= 9; rone++)
+	for (i = 0; i <= 9; i++)
 	{
 		_putchar('0');
 		_putchar(',');
 		_putchar(' ');
-		for (cone = 1; cone <= 9; cone++)
+		for (j = 1; j <= 9; j++)
 		{
-			d = (rone * cone);
+			d = (i * j);
 			if ((d / 10) > 0)
 			{
 				_putchar((d / 10) + '0');
