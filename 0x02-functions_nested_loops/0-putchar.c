@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
  * main - Entry point
@@ -9,24 +9,14 @@
 
 int main(void)
 {
-	char ud = '_';
-	char p = 'p';
-	char u = 'u';
-	char t = 't';
-	char c = 'c';
-	char h = 'h';
-	char a = 'a';
-	char r = 'r';
-	char nl = '\n';
+	int str[] = {95, 112, 117, 116, 99, 104, 97, 114};
+	int count, sz;
 
-	putchar(ud);
-	putchar(p);
-	putchar(u);
-	putchar(t);
-	putchar(c);
-	putchar(h);
-	putchar(a);
-	putchar(r);
-	putchar(nl);
+	sz = sizeof(str) / sizeof(int);
+	for (count = 0; count < sz; count++)
+	{
+		_putchar(str[count]);
+	}
+	_putchar('\n');
 	return (0);
 }
