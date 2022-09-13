@@ -3,6 +3,8 @@
 /**
  * _islower - checks if the charecter is lowercase
  *
+ * @c: The character in ASCII code
+ *
  * Return: returns 1 if the char is lowercase and 0 otherwise
  *
  */
