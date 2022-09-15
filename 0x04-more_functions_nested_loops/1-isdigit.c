@@ -1,7 +1,7 @@
 #include "msin.h"
 
 /**
- * _isupper - checks if parameter is an uppercase character.
+ * _isdigit - checks if parameter is a digit between 0 and 9
  * @c: input character.
  * Return: returns 1 if digit from 0 to 9, 0 otherwise.
  */
