@@ -1,4 +1,4 @@
-#include "msin.h"
+#include "main.h"
 
 /**
  * _isdigit - checks if parameter is a digit between 0 and 9
