@@ -10,13 +10,13 @@ char *string_toupper(char *str)
 {
 	int count = 0;
 
-	while (*(s + count) != '\0')
+	while (*(str + count) != '\0')
 	{
-		if ((*(s + count) >= 97) && (*(s + count) <= 122))
+		if ((*(str + count) >= 97) && (*(str + count) <= 122))
 		{
-			*(s + count) = *(s + count) - 32;
+			*(str + count) = *(str + count) - 32;
 		}
 		count++;
 											}
-	return (s);
+	return (str);
 }
